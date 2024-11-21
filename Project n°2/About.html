@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our watches</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('Rolex')"> Rolex</button>
+    <button class="btn" onclick="filterSelection('Cartier')"> Cartier</button>
+    <button class="btn" onclick="filterSelection('Patek Philippe')"> Patek Philippe</button>
+    <button class="btn" onclick="filterSelection('Richard Mille')"> Richard Mille</button>
+  </div>
+  
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+    <div class="filterDiv Rolex">GMT-Master</div>
+    <div class="filterDiv Cartier">Cartier Tank</div>
+    <div class="filterDiv Rolex">Sky-dweller</div>
+    <div class="filterDiv Cartier">Panthère</div>
+    <div class="filterDiv Rolex">Milgauss</div>
+    <div class="filterDiv Cartier">Ballon Bleu</div>
+    <div class="filterDiv Patek Philippe">Aquanaut</div>
+    <div class="filterDiv Patek Philippe">Gondolo</div>
+    <div class="filterDiv Richard Mille">Rm 67-01</div>
+    <div class="filterDiv Patek Philippe">Calatrava</div>
+    <div class="filterDiv Richard Mille">Rm 005</div>
+    <div class="filterDiv Richard Mille">Rm 010</div>
+    <div class="filterDiv Patek Philippe">Twenty-4</div>
+  </div>
+    
+
+  <script src="main.js"></script>
+</body>
+</html>
